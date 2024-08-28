@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FF7CA162C7EF25B00018BA6 /* AppMobile in Frameworks */ = {isa = PBXBuildFile; productRef = 3FF7CA152C7EF25B00018BA6 /* AppMobile */; };
 		501A476E2BA40AE800C6A431 /* BackupTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501A476D2BA40AE800C6A431 /* BackupTaskView.swift */; };
 		501A47702BA40CDB00C6A431 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501A476F2BA40CDB00C6A431 /* TaskListView.swift */; };
 		501A47772BA448A800C6A431 /* DeviceReachableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501A47762BA448A800C6A431 /* DeviceReachableLabel.swift */; };
@@ -102,6 +103,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FF7C9202C7EEE0700018BA6 /* Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50151C3E2BAB0A1900D694A7 /* ApplePackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ApplePackage; sourceTree = "<group>"; };
 		501A476D2BA40AE800C6A431 /* BackupTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupTaskView.swift; sourceTree = "<group>"; };
 		501A476F2BA40CDB00C6A431 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
@@ -194,7 +196,19 @@
 		50E399112B480884009D3E90 /* RegisterStepHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterStepHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3FF7C9212C7EEE0700018BA6 /* Mobile */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Mobile; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
+		3FF7C91D2C7EEE0700018BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF7CA162C7EF25B00018BA6 /* AppMobile in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		506A0C122B46A117009C77A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,6 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				506A0C172B46A117009C77A5 /* BBackupp */,
+				3FF7C9212C7EEE0700018BA6 /* Mobile */,
 				506A0C162B46A117009C77A5 /* Products */,
 				506A0C2A2B46A1B4009C77A5 /* Frameworks */,
 			);
@@ -255,6 +270,7 @@
 			isa = PBXGroup;
 			children = (
 				506A0C152B46A117009C77A5 /* BBackupp.app */,
+				3FF7C9202C7EEE0700018BA6 /* Mobile.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -490,6 +506,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3FF7C91F2C7EEE0700018BA6 /* Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF7C92E2C7EEE0800018BA6 /* Build configuration list for PBXNativeTarget "Mobile" */;
+			buildPhases = (
+				3FF7C91C2C7EEE0700018BA6 /* Sources */,
+				3FF7C91D2C7EEE0700018BA6 /* Frameworks */,
+				3FF7C91E2C7EEE0700018BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3FF7C9212C7EEE0700018BA6 /* Mobile */,
+			);
+			name = Mobile;
+			packageProductDependencies = (
+				3FF7CA152C7EF25B00018BA6 /* AppMobile */,
+			);
+			productName = Mobile;
+			productReference = 3FF7C9202C7EEE0700018BA6 /* Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
 		506A0C142B46A117009C77A5 /* BBackupp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 506A0C242B46A119009C77A5 /* Build configuration list for PBXNativeTarget "BBackupp" */;
@@ -532,9 +571,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1520;
+				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					3FF7C91F2C7EEE0700018BA6 = {
+						CreatedOnToolsVersion = 16.1;
+					};
 					506A0C142B46A117009C77A5 = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -555,17 +597,26 @@
 				506A0C3E2B46A3B1009C77A5 /* XCRemoteSwiftPackageReference "AuxiliaryExecute" */,
 				506A0C8D2B470CAA009C77A5 /* XCRemoteSwiftPackageReference "ColorfulX" */,
 				50C60CB12BA536E000DA4B3D /* XCRemoteSwiftPackageReference "BetterCodable" */,
+				3FF7CA142C7EF25B00018BA6 /* XCLocalSwiftPackageReference "BBackupp/Library/AppMobile" */,
 			);
 			productRefGroup = 506A0C162B46A117009C77A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				506A0C142B46A117009C77A5 /* BBackupp */,
+				3FF7C91F2C7EEE0700018BA6 /* Mobile */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3FF7C91E2C7EEE0700018BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		506A0C132B46A117009C77A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -697,6 +748,13 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3FF7C91C2C7EEE0700018BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		506A0C112B46A117009C77A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -785,6 +843,58 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		3FF7C92C2C7EEE0800018BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BBackupp/BBackupp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mobile/Resources/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tiandt.Mobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3FF7C92D2C7EEE0800018BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BBackupp/BBackupp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mobile/Resources/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tiandt.Mobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		506A0C222B46A119009C77A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -980,6 +1090,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3FF7C92E2C7EEE0800018BA6 /* Build configuration list for PBXNativeTarget "Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF7C92C2C7EEE0800018BA6 /* Debug */,
+				3FF7C92D2C7EEE0800018BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		506A0C102B46A117009C77A5 /* Build configuration list for PBXProject "BBackupp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -999,6 +1118,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		3FF7CA142C7EF25B00018BA6 /* XCLocalSwiftPackageReference "BBackupp/Library/AppMobile" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = BBackupp/Library/AppMobile;
+		};
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCRemoteSwiftPackageReference section */
 		506A0C272B46A1AE009C77A5 /* XCRemoteSwiftPackageReference "AppleMobileDeviceLibrary" */ = {
@@ -1044,6 +1170,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		3FF7CA152C7EF25B00018BA6 /* AppMobile */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppMobile;
+		};
 		506A0C282B46A1AE009C77A5 /* AppleMobileDeviceLibrary */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 506A0C272B46A1AE009C77A5 /* XCRemoteSwiftPackageReference "AppleMobileDeviceLibrary" */;
