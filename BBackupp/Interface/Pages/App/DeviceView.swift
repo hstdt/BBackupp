@@ -55,7 +55,10 @@ struct DeviceView: View {
         VStack(spacing: 0) {
             header.padding(16)
             Divider()
-#if !Mobile
+#if Mobile
+            InstalledAppListView(udid: udid)
+                .frame(maxHeight: .infinity)
+#else
             BackupListView(udid: udid)
 #endif
         }
