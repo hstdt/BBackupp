@@ -1,0 +1,193 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    ":" : {
+
+    },
+    "%@" : {
+
+    },
+    "%@ %@ %@ %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ %2$@ %3$@ %4$@"
+          }
+        }
+      }
+    },
+    "Add Device" : {
+
+    },
+    "Address" : {
+
+    },
+    "App" : {
+
+    },
+    "Are you sure you want to unregister this device?" : {
+
+    },
+    "Backup Address (Optional)" : {
+
+    },
+    "Backup Encryption" : {
+
+    },
+    "Backup encryption is required for full backup with sensitive data including keychain." : {
+
+    },
+    "Cancel" : {
+
+    },
+    "Check Again" : {
+
+    },
+    "Close" : {
+
+    },
+    "Confirm changes on your device and then click done to refresh." : {
+
+    },
+    "Copy Terminal Environment" : {
+
+    },
+    "Determining" : {
+
+    },
+    "Device Removed" : {
+
+    },
+    "Devices" : {
+
+    },
+    "Disable" : {
+
+    },
+    "Disable Wireless Connection" : {
+
+    },
+    "Does not guarantee to work, it is recommended to keep empty." : {
+
+    },
+    "Done" : {
+
+    },
+    "Enable" : {
+
+    },
+    "Export Pair Record" : {
+
+    },
+    "If this utility is not working, use the one in Finder instead." : {
+
+    },
+    "If you disabled this option, you will need a wire to enable it." : {
+
+    },
+    "If you don't see the confirmation prompt, disconnect the device from your computer and try again." : {
+
+    },
+    "If you forgot the password, you need to reset all settings on your device. [https://support.apple.com/108313](https://support.apple.com/108313)" : {
+
+    },
+    "Import Pair Record" : {
+
+    },
+    "Leaked pair record will allow unauthorized access without your notice." : {
+
+    },
+    "Message" : {
+
+    },
+    "Muxd" : {
+
+    },
+    "OK" : {
+
+    },
+    "Open GitHub" : {
+
+    },
+    "Pair Device" : {
+
+    },
+    "Pair Record" : {
+
+    },
+    "Pair request has been sent to device." : {
+
+    },
+    "Please check the device screen for confirmation." : {
+
+    },
+    "Please connect your device via cable." : {
+
+    },
+    "Please enter the same value again" : {
+
+    },
+    "Please trust this computer on your device." : {
+
+    },
+    "Register" : {
+
+    },
+    "Register Device" : {
+
+    },
+    "Remove" : {
+
+    },
+    "Request Sent" : {
+
+    },
+    "Scanning Devices" : {
+
+    },
+    "Select" : {
+
+    },
+    "Show License" : {
+
+    },
+    "Symbol Picker" : {
+
+    },
+    "This option can be enabled after pair your device to this computer. It is recommended to keep disabled if you dont trust current network." : {
+
+    },
+    "This password is independent from the device passcode." : {
+
+    },
+    "Unable to load license file, please refer to source code for more information." : {
+
+    },
+    "Unregister" : {
+
+    },
+    "Welcome" : {
+
+    },
+    "Welcome to BBackupp" : {
+
+    },
+    "Wireless Connection" : {
+
+    },
+    "You can set addresses to be used when device can not be found automatically. Currently, one **ipv4** address is supported." : {
+
+    },
+    "You will need a wire to enable it again." : {
+
+    },
+    "Your pair record contains the key to access your device. It is recommended to keep it safe." : {
+
+    }
+  },
+  "version" : "1.0"
+}
