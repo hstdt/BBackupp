@@ -35,12 +35,6 @@
     "Backup Address (Optional)" : {
 
     },
-    "Backup Encryption" : {
-
-    },
-    "Backup encryption is required for full backup with sensitive data including keychain." : {
-
-    },
     "Cancel" : {
 
     },
@@ -48,9 +42,6 @@
 
     },
     "Close" : {
-
-    },
-    "Confirm changes on your device and then click done to refresh." : {
 
     },
     "Copy Terminal Environment" : {
@@ -74,25 +65,16 @@
     "Does not guarantee to work, it is recommended to keep empty." : {
 
     },
-    "Done" : {
-
-    },
     "Enable" : {
 
     },
     "Export Pair Record" : {
 
     },
-    "If this utility is not working, use the one in Finder instead." : {
-
-    },
     "If you disabled this option, you will need a wire to enable it." : {
 
     },
     "If you don't see the confirmation prompt, disconnect the device from your computer and try again." : {
-
-    },
-    "If you forgot the password, you need to reset all settings on your device. [https://support.apple.com/108313](https://support.apple.com/108313)" : {
 
     },
     "Import Pair Record" : {
@@ -143,9 +125,6 @@
     "Remove" : {
 
     },
-    "Request Sent" : {
-
-    },
     "Scanning Devices" : {
 
     },
@@ -159,9 +138,6 @@
 
     },
     "This option can be enabled after pair your device to this computer. It is recommended to keep disabled if you dont trust current network." : {
-
-    },
-    "This password is independent from the device passcode." : {
 
     },
     "Unable to load license file, please refer to source code for more information." : {

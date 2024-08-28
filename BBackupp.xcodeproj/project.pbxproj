@@ -54,8 +54,8 @@
 		3FF7CA672C7EFFA800018BA6 /* MessageBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502304C52B483D2B00C8314A /* MessageBoxView.swift */; };
 		3FF7CA682C7EFFD500018BA6 /* ExportPairRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509FA5B82B99A5750096C2DB /* ExportPairRecordView.swift */; };
 		3FF7CA692C7EFFE700018BA6 /* WirelessConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50770BD22B4E5F870056A3AB /* WirelessConfigurationView.swift */; };
-		3FF7CA6A2C7F002400018BA6 /* BackupEncryptionConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50770BDB2B4E7A7A0056A3AB /* BackupEncryptionConfigurationView.swift */; };
 		3FF7CA6B2C7F003200018BA6 /* InputSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505D5BF92B99BE670006884F /* InputSheetView.swift */; };
+		3FF7CA702C7F061A00018BA6 /* WelcomeColor.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50CA8EC42B5156A1001C12DD /* WelcomeColor.xcassets */; };
 		501A476E2BA40AE800C6A431 /* BackupTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501A476D2BA40AE800C6A431 /* BackupTaskView.swift */; };
 		501A47702BA40CDB00C6A431 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501A476F2BA40CDB00C6A431 /* TaskListView.swift */; };
 		501A47772BA448A800C6A431 /* DeviceReachableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501A47762BA448A800C6A431 /* DeviceReachableLabel.swift */; };
@@ -672,6 +672,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF7CA702C7F061A00018BA6 /* WelcomeColor.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -815,7 +816,6 @@
 				3FF7CA682C7EFFD500018BA6 /* ExportPairRecordView.swift in Sources */,
 				3FF7CA692C7EFFE700018BA6 /* WirelessConfigurationView.swift in Sources */,
 				3FF7CA2B2C7EF91A00018BA6 /* AMDManager+DeviceInfo.swift in Sources */,
-				3FF7CA6A2C7F002400018BA6 /* BackupEncryptionConfigurationView.swift in Sources */,
 				3FF7CA2C2C7EF91A00018BA6 /* AMDManager+Connection.swift in Sources */,
 				3FF7CA2D2C7EF91A00018BA6 /* AMDManager+Pair.swift in Sources */,
 				3FF7CA2F2C7EF92D00018BA6 /* AnyEncodable.swift in Sources */,

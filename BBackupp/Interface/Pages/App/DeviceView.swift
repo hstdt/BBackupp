@@ -69,6 +69,7 @@ struct DeviceView: View {
             } label: {
                 Image(systemName: device.deviceSystemIcon)
             }
+            .help("Symbol Picker")
             .sheet(isPresented: $openSymbolPickerPanel) {
                 SymbolPickerPanelView { symbol in
                     vm.devices[udid]?.extra[.preferredIcon] = symbol
@@ -92,6 +93,7 @@ struct DeviceView: View {
             } label: {
                 Label("Export Pair Record", systemImage: "key.viewfinder")
             }
+            .help("Export Pair Record")
             .sheet(isPresented: $openExportPairRecordPanel) {
                 ExportPairRecordSheetView(udid: device.udid)
             }
@@ -103,21 +105,25 @@ struct DeviceView: View {
             } label: {
                 Label("Wireless Connection", systemImage: "wifi")
             }
+            .help("Wireless Connection")
             .sheet(isPresented: $openWirelessSetupPanel) {
                 WirelessConfigurationSheetView(udid: device.udid)
             }
         }
 
+#if !Mobile
         ToolbarItem {
             Button {
                 openBackupEncryptionSetupPanel = true
             } label: {
                 Label("Backup Encryption", systemImage: "lock.doc")
             }
+            .help("Backup Encryption")
             .sheet(isPresented: $openBackupEncryptionSetupPanel) {
                 BackupEncryptionConfigurationSheetView(udid: device.udid)
             }
         }
+#endif
 
         ToolbarItem {
             Button {
@@ -125,6 +131,7 @@ struct DeviceView: View {
             } label: {
                 Label("Unregister", systemImage: "trash")
             }
+            .help("Unregister")
             .alert(isPresented: $openTrashDeviceAlert) {
                 Alert(
                     title: Text("Are you sure you want to unregister this device?"),
@@ -156,6 +163,7 @@ struct DeviceView: View {
                         .foregroundStyle(.accent)
                 }
             }
+            .help("Backup")
             .sheet(isPresented: $openOneTimeBackup) {
                 OneTimeBackupPanelView(udid: udid)
             }

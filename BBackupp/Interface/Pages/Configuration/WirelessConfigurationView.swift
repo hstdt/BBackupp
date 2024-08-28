@@ -36,7 +36,9 @@ struct WirelessConfigurationView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: spacing) {
             control
+#if !Mobile
             address
+#endif
         }
     }
 
