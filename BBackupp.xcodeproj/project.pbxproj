@@ -3,11 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 71;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3FF7CA162C7EF25B00018BA6 /* AppMobile in Frameworks */ = {isa = PBXBuildFile; productRef = 3FF7CA152C7EF25B00018BA6 /* AppMobile */; };
+		3FF7CA292C7EF91300018BA6 /* AMDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C812B4709B1009C77A5 /* AMDManager.swift */; };
+		3FF7CA2A2C7EF91A00018BA6 /* AMDManager+Apps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B990862BA6068A0035BF05 /* AMDManager+Apps.swift */; };
+		3FF7CA2B2C7EF91A00018BA6 /* AMDManager+DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C7F2B4709B1009C77A5 /* AMDManager+DeviceInfo.swift */; };
+		3FF7CA2C2C7EF91A00018BA6 /* AMDManager+Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C802B4709B1009C77A5 /* AMDManager+Connection.swift */; };
+		3FF7CA2D2C7EF91A00018BA6 /* AMDManager+Pair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C822B4709B1009C77A5 /* AMDManager+Pair.swift */; };
+		3FF7CA2E2C7EF91A00018BA6 /* AMDUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C832B4709B1009C77A5 /* AMDUtils.swift */; };
+		3FF7CA2F2C7EF92D00018BA6 /* AnyEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C772B470984009C77A5 /* AnyEncodable.swift */; };
+		3FF7CA302C7EF92D00018BA6 /* AnyCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C762B470984009C77A5 /* AnyCodable.swift */; };
+		3FF7CA312C7EF92D00018BA6 /* AnyDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C752B470984009C77A5 /* AnyDecodable.swift */; };
+		3FF7CA322C7EF96000018BA6 /* MuxResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C532B46FBCF009C77A5 /* MuxResponse.swift */; };
+		3FF7CA332C7EF96000018BA6 /* MuxRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C512B46F01F009C77A5 /* MuxRequestHandler.swift */; };
+		3FF7CA342C7EF96000018BA6 /* MuxRequestPreProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C4C2B46ABC6009C77A5 /* MuxRequestPreProcess.swift */; };
+		3FF7CA352C7EF96000018BA6 /* UpstreamResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C552B46FDA6009C77A5 /* UpstreamResponseHandler.swift */; };
+		3FF7CA362C7EF96000018BA6 /* MuxProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C4A2B46A8B7009C77A5 /* MuxProxy.swift */; };
+		3FF7CA372C7EF96000018BA6 /* MuxRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C482B46A896009C77A5 /* MuxRequest.swift */; };
+		3FF7CA382C7EF96000018BA6 /* UpstreamResponsePreProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C572B46FDB7009C77A5 /* UpstreamResponsePreProcess.swift */; };
+		3FF7CA3D2C7EFAC800018BA6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C2E2B46A2E2009C77A5 /* Constants.swift */; };
+		3FF7CA3E2C7EFB3900018BA6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C622B470587009C77A5 /* Result.swift */; };
+		3FF7CA3F2C7EFB3900018BA6 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C5E2B470587009C77A5 /* Date.swift */; };
+		3FF7CA402C7EFB3900018BA6 /* MacAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B9908A2BA61BE40035BF05 /* MacAddress.swift */; };
+		3FF7CA412C7EFB3900018BA6 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501A47892BA4838500C6A431 /* Alert.swift */; };
+		3FF7CA422C7EFB3900018BA6 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501A47922BA5310900C6A431 /* String.swift */; };
+		3FF7CA432C7EFB3900018BA6 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503E8F0A2BA5A68D00761C73 /* Codable.swift */; };
+		3FF7CA442C7EFB3900018BA6 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C632B470587009C77A5 /* NSImage.swift */; };
+		3FF7CA452C7EFB3900018BA6 /* SavePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505D5BF52B99AC6C0006884F /* SavePanel.swift */; };
+		3FF7CA462C7EFB3900018BA6 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C612B470587009C77A5 /* FileManager.swift */; };
+		3FF7CA472C7EFB3900018BA6 /* DecodeSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C60CC22BA5680200DA4B3D /* DecodeSize.swift */; };
+		3FF7CA482C7EFB3900018BA6 /* PublishedStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C662B470587009C77A5 /* PublishedStorage.swift */; };
+		3FF7CA492C7EFB3900018BA6 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505D5BF32B99AA780006884F /* Data.swift */; };
+		3FF7CA4A2C7EFB3900018BA6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CA8EC62B515795001C12DD /* Color.swift */; };
+		3FF7CA4C2C7EFB3D00018BA6 /* PairRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5096BCB82B4835AD00F16F4C /* PairRecord.swift */; };
+		3FF7CA4D2C7EFB3D00018BA6 /* Devices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C5A2B47034B009C77A5 /* Devices.swift */; };
+		3FF7CA522C7EFC1F00018BA6 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C8B2B470C95009C77A5 /* WelcomeView.swift */; };
+		3FF7CA532C7EFC9E00018BA6 /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50770BDD2B4E7F5D0056A3AB /* DeviceView.swift */; };
+		3FF7CA542C7EFCAD00018BA6 /* RegisterSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C962B471F0F009C77A5 /* RegisterSheetView.swift */; };
+		3FF7CA552C7EFCBA00018BA6 /* UnregisteredDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3990D2B47F3D9009D3E90 /* UnregisteredDeviceView.swift */; };
+		3FF7CA562C7EFCCE00018BA6 /* UnregisteredDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3990B2B47F3CB009D3E90 /* UnregisteredDevice.swift */; };
+		3FF7CA572C7EFCEE00018BA6 /* Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A0C902B470F6A009C77A5 /* Setup.swift */; };
+		3FF7CA622C7EFF0C00018BA6 /* SymbolPickerPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CA8EC22B512AD8001C12DD /* SymbolPickerPanelView.swift */; };
+		3FF7CA632C7EFF5800018BA6 /* SheetPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50770BD42B4E5FAD0056A3AB /* SheetPanelView.swift */; };
+		3FF7CA642C7EFF8100018BA6 /* RegisterDeviceSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E3990F2B47F3E6009D3E90 /* RegisterDeviceSheetView.swift */; };
+		3FF7CA652C7EFF8D00018BA6 /* RegisterStepHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E399112B480884009D3E90 /* RegisterStepHeaderView.swift */; };
+		3FF7CA662C7EFF9A00018BA6 /* DeviceReachableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501A47762BA448A800C6A431 /* DeviceReachableLabel.swift */; };
+		3FF7CA672C7EFFA800018BA6 /* MessageBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502304C52B483D2B00C8314A /* MessageBoxView.swift */; };
+		3FF7CA682C7EFFD500018BA6 /* ExportPairRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509FA5B82B99A5750096C2DB /* ExportPairRecordView.swift */; };
+		3FF7CA692C7EFFE700018BA6 /* WirelessConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50770BD22B4E5F870056A3AB /* WirelessConfigurationView.swift */; };
+		3FF7CA6A2C7F002400018BA6 /* BackupEncryptionConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50770BDB2B4E7A7A0056A3AB /* BackupEncryptionConfigurationView.swift */; };
+		3FF7CA6B2C7F003200018BA6 /* InputSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505D5BF92B99BE670006884F /* InputSheetView.swift */; };
 		501A476E2BA40AE800C6A431 /* BackupTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501A476D2BA40AE800C6A431 /* BackupTaskView.swift */; };
 		501A47702BA40CDB00C6A431 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501A476F2BA40CDB00C6A431 /* TaskListView.swift */; };
 		501A47772BA448A800C6A431 /* DeviceReachableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501A47762BA448A800C6A431 /* DeviceReachableLabel.swift */; };
@@ -196,8 +244,18 @@
 		50E399112B480884009D3E90 /* RegisterStepHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterStepHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3FF7CA612C7EFE3F00018BA6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				App/Configuration/Common.xcconfig,
+			);
+			target = 3FF7C91F2C7EEE0700018BA6 /* Mobile */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3FF7C9212C7EEE0700018BA6 /* Mobile */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Mobile; sourceTree = "<group>"; };
+		3FF7C9212C7EEE0700018BA6 /* Mobile */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (3FF7CA612C7EFE3F00018BA6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Mobile; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -752,6 +810,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF7CA2A2C7EF91A00018BA6 /* AMDManager+Apps.swift in Sources */,
+				3FF7CA3D2C7EFAC800018BA6 /* Constants.swift in Sources */,
+				3FF7CA682C7EFFD500018BA6 /* ExportPairRecordView.swift in Sources */,
+				3FF7CA692C7EFFE700018BA6 /* WirelessConfigurationView.swift in Sources */,
+				3FF7CA2B2C7EF91A00018BA6 /* AMDManager+DeviceInfo.swift in Sources */,
+				3FF7CA6A2C7F002400018BA6 /* BackupEncryptionConfigurationView.swift in Sources */,
+				3FF7CA2C2C7EF91A00018BA6 /* AMDManager+Connection.swift in Sources */,
+				3FF7CA2D2C7EF91A00018BA6 /* AMDManager+Pair.swift in Sources */,
+				3FF7CA2F2C7EF92D00018BA6 /* AnyEncodable.swift in Sources */,
+				3FF7CA302C7EF92D00018BA6 /* AnyCodable.swift in Sources */,
+				3FF7CA312C7EF92D00018BA6 /* AnyDecodable.swift in Sources */,
+				3FF7CA672C7EFFA800018BA6 /* MessageBoxView.swift in Sources */,
+				3FF7CA642C7EFF8100018BA6 /* RegisterDeviceSheetView.swift in Sources */,
+				3FF7CA2E2C7EF91A00018BA6 /* AMDUtils.swift in Sources */,
+				3FF7CA292C7EF91300018BA6 /* AMDManager.swift in Sources */,
+				3FF7CA4C2C7EFB3D00018BA6 /* PairRecord.swift in Sources */,
+				3FF7CA632C7EFF5800018BA6 /* SheetPanelView.swift in Sources */,
+				3FF7CA4D2C7EFB3D00018BA6 /* Devices.swift in Sources */,
+				3FF7CA3E2C7EFB3900018BA6 /* Result.swift in Sources */,
+				3FF7CA3F2C7EFB3900018BA6 /* Date.swift in Sources */,
+				3FF7CA402C7EFB3900018BA6 /* MacAddress.swift in Sources */,
+				3FF7CA412C7EFB3900018BA6 /* Alert.swift in Sources */,
+				3FF7CA422C7EFB3900018BA6 /* String.swift in Sources */,
+				3FF7CA432C7EFB3900018BA6 /* Codable.swift in Sources */,
+				3FF7CA442C7EFB3900018BA6 /* NSImage.swift in Sources */,
+				3FF7CA572C7EFCEE00018BA6 /* Setup.swift in Sources */,
+				3FF7CA542C7EFCAD00018BA6 /* RegisterSheetView.swift in Sources */,
+				3FF7CA452C7EFB3900018BA6 /* SavePanel.swift in Sources */,
+				3FF7CA462C7EFB3900018BA6 /* FileManager.swift in Sources */,
+				3FF7CA472C7EFB3900018BA6 /* DecodeSize.swift in Sources */,
+				3FF7CA482C7EFB3900018BA6 /* PublishedStorage.swift in Sources */,
+				3FF7CA492C7EFB3900018BA6 /* Data.swift in Sources */,
+				3FF7CA652C7EFF8D00018BA6 /* RegisterStepHeaderView.swift in Sources */,
+				3FF7CA562C7EFCCE00018BA6 /* UnregisteredDevice.swift in Sources */,
+				3FF7CA4A2C7EFB3900018BA6 /* Color.swift in Sources */,
+				3FF7CA532C7EFC9E00018BA6 /* DeviceView.swift in Sources */,
+				3FF7CA322C7EF96000018BA6 /* MuxResponse.swift in Sources */,
+				3FF7CA622C7EFF0C00018BA6 /* SymbolPickerPanelView.swift in Sources */,
+				3FF7CA332C7EF96000018BA6 /* MuxRequestHandler.swift in Sources */,
+				3FF7CA342C7EF96000018BA6 /* MuxRequestPreProcess.swift in Sources */,
+				3FF7CA662C7EFF9A00018BA6 /* DeviceReachableLabel.swift in Sources */,
+				3FF7CA352C7EF96000018BA6 /* UpstreamResponseHandler.swift in Sources */,
+				3FF7CA362C7EF96000018BA6 /* MuxProxy.swift in Sources */,
+				3FF7CA372C7EF96000018BA6 /* MuxRequest.swift in Sources */,
+				3FF7CA382C7EF96000018BA6 /* UpstreamResponsePreProcess.swift in Sources */,
+				3FF7CA6B2C7F003200018BA6 /* InputSheetView.swift in Sources */,
+				3FF7CA522C7EFC1F00018BA6 /* WelcomeView.swift in Sources */,
+				3FF7CA552C7EFCBA00018BA6 /* UnregisteredDeviceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -845,6 +951,8 @@
 /* Begin XCBuildConfiguration section */
 		3FF7C92C2C7EEE0800018BA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 3FF7C9212C7EEE0700018BA6 /* Mobile */;
+			baseConfigurationReferenceRelativePath = App/Configuration/Common.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -871,6 +979,8 @@
 		};
 		3FF7C92D2C7EEE0800018BA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 3FF7C9212C7EEE0700018BA6 /* Mobile */;
+			baseConfigurationReferenceRelativePath = App/Configuration/Common.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -11,7 +11,9 @@ struct DeviceView: View {
     let udid: Device.ID
 
     @StateObject var vm = devManager
+#if !Mobile
     @StateObject var backupManager = bakManager
+#endif
 
     var device: Device { vm.devices[udid, default: .init()] }
 
@@ -23,6 +25,7 @@ struct DeviceView: View {
     @State var openTrashDeviceAlert = false
 
     @State var openOneTimeBackup = false
+#if !Mobile
     @State var openBackupTask: BackupTask? = nil
 
     var runningBackupTask: BackupTask? {
@@ -31,6 +34,7 @@ struct DeviceView: View {
             .filter { $0.config.device.udid == udid }
             .first
     }
+#endif
 
     var body: some View {
         Group {
@@ -51,7 +55,9 @@ struct DeviceView: View {
         VStack(spacing: 0) {
             header.padding(16)
             Divider()
+#if !Mobile
             BackupListView(udid: udid)
+#endif
         }
     }
 
@@ -133,6 +139,7 @@ struct DeviceView: View {
                 .disabled(true)
         }
 
+#if !Mobile
         ToolbarItem {
             Button {
                 if runningBackupTask != nil {
@@ -156,6 +163,7 @@ struct DeviceView: View {
                 BackupTaskView(task: task)
             }
         }
+#endif
     }
 
     var header: some View {

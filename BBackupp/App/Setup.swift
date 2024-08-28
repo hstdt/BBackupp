@@ -42,11 +42,16 @@ private func setupApplicationEx() throws {
         )
     }
 
+#if !Mobile
     _ = appSetting
+#endif
     _ = amdManager
     _ = devManager
+#if !Mobile
     _ = bakManager
+#endif
 
+#if !Mobile
     _ = AppStoreBackend.shared
 
     for plan in bakManager.plans.values {
@@ -66,4 +71,5 @@ private func setupApplicationEx() throws {
         queue.async { appSetting.aliveCheckerHeartBeat() }
     }
     RunLoop.current.add(timer, forMode: .common)
+#endif
 }

@@ -76,6 +76,7 @@ struct WelcomeView: View {
         HStack(alignment: .bottom) {
             PairDeviceButton()
             Spacer()
+#if !Mobile
             VStack(alignment: .trailing, spacing: 0) {
                 Text("v\(Constants.appVersion).b\(Constants.appBuildVersion).c\(BackupTask.mobileBackupVersion)")
                 Text(Restic.version)
@@ -84,6 +85,7 @@ struct WelcomeView: View {
             .onTapGesture {
                 NSWorkspace.shared.open(Constants.projectUrl)
             }
+#endif
         }
         .opacity(0.75)
     }

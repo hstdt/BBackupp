@@ -1,0 +1,13 @@
+//
+//  Common.xcconfig
+//
+//
+//  Created by tdt on 2024/8/28.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited)
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited)
+OTHER_SWIFT_FLAGS = $(inherited) "-DMobile"
